@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Heebo:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.form{
+    width: 40%;
+    margin: 10vh auto;
+    padding: 20px;
+    box-sizing: border-box;
+    @media only screen and (max-width: 800px) {
+        width: 100%;
+    }
+    
+}
+
+.input-field input{
+    padding: 10px;
+    box-sizing: border-box;
+    border: thin solid gray;
+}
+
+.input-field label,input{
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.input-field{
+    margin: 20px 0;
+}
+
+.nav-option a{
+    background-color: #1E345D;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.big-heading{
+    font-size: 50px;
+    padding: 2.5rem 0;
+}
+
+.container1{
+    background-color: #1E345D;
+    color: white;
+    text-align: center;
+    /* height: 100vh; */
+    width: 100%;
+    position: relative;
+}
+
+.container1_foreground{
+    position: absolute;
+    /* background-color: rgba(0, 0, 0, 0.593); */
+    background-image: linear-gradient(to right,#000000, #000000, #00000070);;
+    width: 100%;
+    height: 100%;
+    @media only screen and (max-width: 800px) {
+        display: none;
+    }
+}
+
+.container2 .icon{
+    font-size: 80px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.size23{
+    font-size: 20px;
+}
+
+.line-height{
+    line-height: 2rem;
+}
+
+.container1-flex{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.container1-flex1{
+    padding: 20px;
+    z-index: 2;
+    @media only screen and (max-width: 800px) {
+        padding: 20px;
+    }
+}
+
+.container1-flex2{
+    width: 100%;
+    @media only screen and (max-width: 800px) {
+        display: none;
+    }
+}
+
+.container1-flex2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container1 .plans{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1E345D;
+}
+
+.plan-item{
+    background-color: white;
+    width: 220px;
+    margin: 10px 0;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.container2{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 17px;
+}
+
+.sub-heading{
+    margin: 10px 0; 
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container2 .plans{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1E345D;
+}
+
+.container2 .plan-item{
+    width: 100%;
+    font-size: 16px;
+
+}
+
+.container4{
+    background-color: #1E345D;
+    color: white;
+    padding: 30px 20px;
+}
+
+.container4 p{
+    line-height: 2.0rem;
+}
+
+.btn{
+    background-color: green;
+    padding: 15px 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    max-width: 300px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container5{
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.container6{
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.container5_item{
+    text-align: center;
+}
+
+.container6_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+}
+
+.container6_item{
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px 0;
+    padding: 10px 0;
+    text-align: center;
+    line-height: 1.7rem;
+    color: green;
+}
+
+.container7{
+    padding: 20px;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.container8{
+    padding: 20px;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.flex-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.off-white{
+    background-color: rgb(239, 239, 239);
+}
+
+.container9{
+    padding: 20px;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.footer{
+    background-color: #000000;
+    padding: 50px;
+    color: white;
+    line-height: 2.0rem;
+    font-size: 15px;
+}
+
+.footer .links a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    margin-right: 10px;
+
+    border-right: thin solid white;
+}
