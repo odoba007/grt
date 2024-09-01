@@ -113,7 +113,7 @@ export default function Form() {
 
           <div className="input-field">
             <label htmlFor="">Briefly Describe How You Will Use The Money</label>
-            <textarea style={{padding:"10px"}} rows={10} name="input11" id=""></textarea>
+            <textarea style={{padding:"10px"}} rows={7} name="input11" id=""></textarea>
             
           </div>
 

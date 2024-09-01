@@ -27,6 +27,15 @@ button{
     border: none;
 }
 
+select,input,button{
+    font-size: 16px;
+}
+
+select{
+    background-color: none;
+    min-height: 40px;
+}
+
 .input-field input,select, textarea{
     padding: 10px;
     box-sizing: border-box;
