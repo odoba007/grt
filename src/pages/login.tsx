@@ -28,7 +28,7 @@ export default function Login() {
                 <label htmlFor="">
                     Password
                 </label>
-                <input type="text" />
+                <input type="password" />
             </div>
            
             <div style={{display:"flex", width:"150px"}} className="input-field">
@@ -39,7 +39,7 @@ export default function Login() {
 
             <button className="btn">Login</button>
 
-            <p>Don't have an account? <Link to={"https://wa.link/z12cbp"} style={{color:"#1E345D", fontWeight:"bold"}}>click here</Link> to register</p>
+            <p>Don't have an account? <Link to={"/registration-form"} style={{color:"#1E345D", fontWeight:"bold"}}>click here</Link> to register</p>
         </form>
     </div>
 

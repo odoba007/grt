@@ -23,13 +23,17 @@
     
 }
 
-.input-field input{
+button{
+    border: none;
+}
+
+.input-field input,select, textarea{
     padding: 10px;
     box-sizing: border-box;
     border: thin solid gray;
 }
 
-.input-field label,input{
+.input-field label,input, select, textarea{
     display: block;
     margin: 10px 0;
     width: 100%;

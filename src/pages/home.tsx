@@ -120,7 +120,7 @@ export default function Home() {
           as a new building or large pieces of equipment.{" "}
         </p>
 
-        <Link to={"https://wa.link/z12cbp"}>
+        <Link to={"/registration-form"}>
           <div className="btn">Start the Application Process Today</div>
         </Link>
       </div>
@@ -211,7 +211,7 @@ export default function Home() {
         <p>Regarding your current financial status, don't worry. </p>
 
         <div className="flex-center">
-        <Link to={"https://wa.link/z12cbp"}>
+        <Link to={"/registration-form"}>
             {" "}
             <div className="btn">Start the Application Process Now</div>{" "}
           </Link>
@@ -232,7 +232,7 @@ export default function Home() {
         </p>
 
         <div className="flex-center">
-        <Link to={"https://wa.link/z12cbp"}>
+        <Link to={"/registration-form"}>
             <div className="btn">Start the Application Process today</div>{" "}
           </Link>
         </div>
