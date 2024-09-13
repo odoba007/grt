@@ -20,7 +20,10 @@ export default function ThankYou() {
     <p>Thank you for your interest. We have received your application and are currently reviewing it. To proceed with your application, please click the <Link style={{color:"blue", textDecoration:"underline"}} to={"https://wa.link/z12cbp"}>link</Link> below to contact one of our agents. They will assist you with the next steps.</p>
 <br />
 <br />
-    <Link className="btn" to={"https://wa.link/z12cbp"}>Click here to Message an Agent</Link>
+    <Link className="btn" to={"https://wa.link/z12cbp"}>Click here to Message an Agent</Link>  <br /> <br />
+    <p>or</p>
+    <br />
+    <Link className="btn" to={"https://wa.link/z8rlyz"}>Click here to Message an Agent</Link>
        
     </div>
 

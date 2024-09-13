@@ -243,8 +243,10 @@ export default function Home() {
           <a href=""> Home</a>
           <Link to={"login"}>Login</Link>
           <a href="">Terms</a>
-          <a href="">Privacy Policy</a>
-          <Link to={"https://wa.link/z12cbp"}>Contact +1 (276) 257-7386</Link>
+          <a href="">Privacy Policy</a> <br />
+          <p>Contact us</p>
+          <Link to={"https://wa.link/z12cbp"}>+1 (276) 257-7386</Link> <br />
+          <Link to={"https://wa.link/z8rlyz"}> +1 (346) 810-0725</Link>
         </div>
 
         <p>Copyright 2024 USA Funding Applications</p>
